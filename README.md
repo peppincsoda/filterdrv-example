@@ -3,8 +3,8 @@
 
 This is a homework I made for a company when applying for a Windows Driver Developer position.
 The task was to create a console application that prints a log entry every time a file is opened
-in the system and can be interrupted by Ctrl+C but it was not allowed to use signals for the implementation (so that Ctrl+C could be easily changed to something else).
-For the implementation I used Microsoft's nullFilter and minispy examples.
+in the system and can be interrupted by Ctrl+C, but it was not allowed to use signals for the implementation (so that Ctrl+C could be easily changed to something else).
+For the implementation I used Microsoft's nullFilter and minispy examples as a starting point.
 
 ## Building and testing
 
